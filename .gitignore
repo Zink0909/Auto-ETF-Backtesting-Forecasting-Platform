@@ -1,1 +1,26 @@
+# === System files ===
+.DS_Store
+
+# === Python cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Virtual environments ===
+env/
+venv/
+
+# === Credentials ===
 *.json
+
+# === VS Code settings ===
+.vscode/
+
+# === Logs and outputs ===
+*.log
+*.out
+*.tmp
