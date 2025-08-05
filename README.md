@@ -1,6 +1,11 @@
-# 📈 ETF-Prophet: Automated ETF Analysis, Forecasting & Strategy Simulation
+# 📈 Auto-ETF-Backtesting-Forecasting-Platform: Automated ETF Analysis, Forecasting & Strategy Simulation
 
-**ETF-Prophet** is an end-to-end ETF analytics engine built in Jupyter Notebook. It integrates real-time data acquisition via custom web crawlers, automated updates to Google Sheets, and statistical modeling for short-term trend forecasting. The project also supports user-configurable investment strategies and performance evaluation across multiple ETFs.
+**Auto-ETF-Backtesting-Forecasting-Platform** is a fully automated Python-based pipeline for ETF strategy simulation, performance analytics, and short-term forecasting.
+
+It integrates live ETF data collection via custom web crawlers, automated data synchronization to Google Sheets, and configurable investment simulations driven by flexible Python scripts. The system supports real-time strategy testing, comprehensive metric evaluation (e.g., Sharpe ratio, max drawdown), and statistical forecasting using Prophet.
+
+Additionally, an interactive front-end interface allows users to select ETFs, adjust parameters (e.g., start/end date, investment amount, frequency), and visualize results with dynamic plots, making this tool ideal for both analysis and demonstration.
+
 
 ---
 
@@ -28,20 +33,11 @@
 - Constructs rolling confidence intervals and prediction bands
 - Provides trend insight for near-future movements
 
----
+### 🖥️ Interactive Web Interface
+- Simple front-end web UI to simulate ETF strategies with custom parameters
+- Users can select ETF ticker, date range, investment amount, and frequency
+- Real-time visualization of performance, metrics, and forecasts
 
-## 📂 Project Structure
-
-```
-ETF-Prophet/
-├── etf_scraper.py
-├── google_sheets_updater.py
-├── strategy_simulation.ipynb
-├── prophet_forecasting.ipynb
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
 
 ---
 
@@ -63,6 +59,17 @@ ETF-Prophet/
 - Share reproducible dashboards via Google Sheets
 
 ---
+
+### 🖥️ Interactive Web Interface
+This project includes a lightweight interactive front-end (e.g., Streamlit or Flask) allowing users to:
+
+- Select one or more ETFs
+- Choose investment start/end date, amount, and frequency
+- Toggle strategies and forecasting options
+- View real-time visualizations including equity curves, prediction intervals, and metric comparisons
+
+Ideal for demonstrating how strategy and forecast models respond to different market scenarios.
+
 
 ## 🔐 Requirements
 
