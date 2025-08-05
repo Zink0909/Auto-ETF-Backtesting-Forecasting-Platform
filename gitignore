@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Google API credentials
+*.json
+
+# Caches and logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
