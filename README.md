@@ -1,4 +1,4 @@
-# 📈 Auto-ETF-Backtesting-Forecasting-Platform: Automated ETF Analysis, Forecasting & Strategy Simulation
+# Auto-ETF-Backtesting-Forecasting-Platform: Automated ETF Analysis, Forecasting & Strategy Simulation
 
 **Auto-ETF-Backtesting-Forecasting-Platform** is a fully automated Python-based pipeline for ETF strategy simulation, performance analytics, and short-term forecasting.
 
@@ -9,31 +9,31 @@ Additionally, an interactive front-end interface allows users to select ETFs, ad
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🔄 Real-Time ETF Data Pipeline
+### Real-Time ETF Data Pipeline
 - Custom ETF crawler scrapes up-to-date price data from web sources
 - Google Sheets automatically syncs historical data via Sheets API (OAuth2)
 - Supports reproducible analysis and strategy testing without manual data handling
 
-### 📊 Strategy-Driven Investment Simulator
+### Strategy-Driven Investment Simulator
 - Implements configurable strategies such as:
   - SMA Crossover
   - Mean Reversion
 - Simulates portfolio growth over custom periods and tickers
 - Visualizes equity curves and annotated buy/sell signals
 
-### 📐 Quantitative Metrics & Analytics
+### Quantitative Metrics & Analytics
 - Computes Sharpe Ratio, CAGR, Max Drawdown, Sortino Ratio, and Volatility
 - Visual summary of return distributions and rolling volatility
 - Multi-ETF backtesting with comparative performance plots
 
-### 🔮 Short-Term Forecasting with Prophet
+### Short-Term Forecasting with Prophet
 - Applies Facebook Prophet to model ETF price movement
 - Constructs rolling confidence intervals and prediction bands
 - Provides trend insight for near-future movements
 
-### 🖥️ Interactive Web Interface
+### Interactive Web Interface
 - Simple front-end web UI to simulate ETF strategies with custom parameters
 - Users can select ETF ticker, date range, investment amount, and frequency
 - Real-time visualization of performance, metrics, and forecasts
@@ -41,7 +41,7 @@ Additionally, an interactive front-end interface allows users to select ETFs, ad
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
 - `requests`, `BeautifulSoup` for scraping
@@ -51,7 +51,7 @@ Additionally, an interactive front-end interface allows users to select ETFs, ad
 
 ---
 
-## 📈 Use Cases
+## Use Cases
 
 - Backtest ETF strategies with auto-updated data
 - Forecast short-term price trends
@@ -60,7 +60,7 @@ Additionally, an interactive front-end interface allows users to select ETFs, ad
 
 ---
 
-### 🖥️ Interactive Web Interface
+### Interactive Web Interface
 This project includes a lightweight interactive front-end (e.g., Streamlit or Flask) allowing users to:
 
 - Select one or more ETFs
@@ -71,7 +71,7 @@ This project includes a lightweight interactive front-end (e.g., Streamlit or Fl
 Ideal for demonstrating how strategy and forecast models respond to different market scenarios.
 
 
-## 🔐 Requirements
+## Requirements
 
 - Google Cloud credentials (OAuth2) for Sheets API access
 - Python ≥ 3.7
