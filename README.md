@@ -79,7 +79,7 @@ Ideal for demonstrating how strategy and forecast models respond to different ma
 
 ---
 
-## 📌 Future Work
+## Future Work
 
 - Add benchmark comparisons (e.g., SPY, QQQ)
 - Extend to portfolio-level optimization
