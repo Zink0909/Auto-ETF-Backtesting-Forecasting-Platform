@@ -1,0 +1,23 @@
+# --- Secrets: never commit credentials (the legacy project leaked a private key) ---
+*.json
+!configs/*.json
+.streamlit/secrets.toml
+secrets.toml
+*service-account*
+credentials/
+
+# Data cache (regenerable from the source)
+data/cache/
+*.parquet
+
+# Generated reports
+reports/*.xlsx
+reports/figures/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+.DS_Store

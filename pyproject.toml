@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etf-dca"
+version = "0.1.0"
+description = "Reproducible ETF dollar-cost-averaging backtest and analytics"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+    "yfinance",
+    "pyarrow",
+    "matplotlib",
+    "streamlit",
+    "pyyaml",
+    "xlsxwriter",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

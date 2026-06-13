@@ -1,0 +1,21 @@
+# Central configuration -- no magic numbers in code.
+
+data:
+  source: yfinance                 # yfinance (real) | synthetic (offline demo/CI)
+  tickers: [SPY, QQQ, VTI]
+  start: "2015-01-01"
+  end: "2024-12-31"
+  cache_dir: "data/cache"          # downloaded prices cached as parquet (gitignored)
+  synthetic_seed: 42
+
+dca:
+  amount: 200                      # contribution per period
+  frequency: monthly               # daily | weekly | biweekly | monthly
+  weekday: 0                       # 0=Mon (used by weekly/biweekly)
+  start_principal: 1000            # optional lump sum at the start
+
+analysis:
+  risk_free_rate: 0.02             # annual, for Sharpe/Sortino
+  trading_days: 252
+
+reports_dir: reports
